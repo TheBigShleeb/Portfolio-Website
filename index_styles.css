@@ -13,15 +13,7 @@
     position: relative;
 }
 
-.home-featured-work .overlap-group {
-    position: absolute;
-    width: 1920px;
-    height: 1128px;
-    top: 0;
-    left: 0;
-}
-
-.home-featured-work .rectangle {
+.home-featured-work .overlap {
     position: absolute;
     width: 1920px;
     height: 1125px;
@@ -30,11 +22,19 @@
     background-color: #ffffff;
 }
 
-.home-featured-work .my-name-is-nathan-i {
+.home-featured-work .overlap-group {
+    position: absolute;
+    width: 1518px;
+    height: 979px;
+    top: 146px;
+    left: 402px;
+}
+
+.home-featured-work .headline {
     position: absolute;
     width: 730px;
-    top: 401px;
-    left: 402px;
+    top: 200px;
+    left: 0;
     font-family: var(--h1-font-family);
     font-weight: var(--h1-font-weight);
     color: #000000;
@@ -44,44 +44,61 @@
     font-style: var(--h1-font-style);
 }
 
+.home-featured-work .group {
+    position: absolute;
+    width: 1103px;
+    height: 979px;
+    top: 0;
+    left: 415px;
+    background-image: url(./img/vector-4.png);
+    background-size: 100% 100%;
+}
+
+.home-featured-work .overlap-group-2 {
+    position: relative;
+    width: 1020px;
+    height: 884px;
+    top: 95px;
+    left: 83px;
+    background-image: url(./img/vector-3.png);
+    background-size: 100% 100%;
+}
+
+.home-featured-work .vector4 {
+    position: absolute;
+    width: 1103px;
+    height: 979px;
+    top: 0;
+    left: 415px;
+}
+.home-featured-work .vector3 {
+    position: absolute;
+    width: 1020px;
+    height: 884px;
+    top: 95px;
+    left: 498px;
+}
+.home-featured-work .vector2 {
+    position: absolute;
+    width: 836px;
+    height: 737px;
+    top: 242px;
+    left: 682px;
+}
+.home-featured-work .vector1 {
+    position: absolute;
+    width: 591px;
+    height: 528px;
+    top: 451px;
+    left: 927px;
+}
+
 .home-featured-work .logo {
     position: absolute;
     width: 108px;
     height: 101px;
     top: 42px;
     left: 47px;
-}
-
-.home-featured-work .vector {
-    position: absolute;
-    width: 1103px;
-    height: 979px;
-    top: 149px;
-    left: 817px;
-}
-
-.home-featured-work .img {
-    position: absolute;
-    width: 1020px;
-    height: 884px;
-    top: 244px;
-    left: 900px;
-}
-
-.home-featured-work .vector-2 {
-    position: absolute;
-    width: 836px;
-    height: 737px;
-    top: 391px;
-    left: 1084px;
-}
-
-.home-featured-work .vector-3 {
-    position: absolute;
-    width: 591px;
-    height: 528px;
-    top: 600px;
-    left: 1329px;
 }
 
 .home-featured-work .text-wrapper {
