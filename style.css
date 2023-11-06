@@ -13,7 +13,7 @@
 }
 
 /*-----------Type------------*/
-.h1 {
+h1 {
     font-family: "Helvetica-Bold", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -22,7 +22,7 @@
     font-style: normal;
 }
 
-.h2 {
+h2 {
     font-family: "Helvetica-Regular", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -31,7 +31,7 @@
     font-style: normal;
 }
 
-.p {
+p {
     font-family: "Helvetica-Regular", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -120,7 +120,6 @@ nav{
 }
 
 .grid-container{
-    align-self: center;
     max-width: 1224px;
     width: 90%;
     margin: auto;
