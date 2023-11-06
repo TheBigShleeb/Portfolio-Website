@@ -1,0 +1,137 @@
+:root {
+    /*-----------Color------------*/
+    --clr-grey-400: #343434;
+    --clr-light_grey-400: #D1D2D4;
+    --clr-blue-400: #0F75BC;
+    --clr-light_blue-400: #6ECFF6;
+
+    /*-----------Type------------*/
+    --h1-font-family: "Helvetica-Bold", Helvetica;
+    --h1-font-weight: 700;
+    --h1-font-size: 48px;
+    --h1-letter-spacing: 0px;
+    --h1-line-height: normal;
+    --h1-font-style: normal;
+
+    --h-2-font-family: "Helvetica-Regular", Helvetica;
+    --h-2-font-weight: 400;
+    --h-2-font-size: 32px;
+    --h-2-letter-spacing: 0px;
+    --h-2-line-height: normal;
+    --h-2-font-style: normal;
+
+    --p-font-family: "Helvetica-Regular", Helvetica;
+    --p-font-weight: 400;
+    --p-font-size: 24px;
+    --p-letter-spacing: 0px;
+    --p-line-height: normal;
+    --p-font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header img{
+    padding: 2% 2%;
+    width: 100px;
+}
+
+.header{
+    min-height: 10vh;
+    width: 97%;
+    background-color: white;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.nav-links{
+    padding: 0%;
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1px 55px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: "Helvetica-Regular", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.headline{
+    min-height: 90vh;
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    position: relative;
+}
+
+.label {
+    width: 730px;
+    height: 500px;
+}
+
+.label .type{
+    position: relative;
+    top: 270px;
+    left: 400px;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    color: #000000;
+    font-size: var(--h1-font-size);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+    font-style: var(--h1-font-style);
+}
+
+.featured{
+    min-height: 115vh;
+    width: 100%;
+    background-color: #343434;
+    background-position: center;
+    position: relative;
+}
+
+.featured img{
+    width: 55%;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    padding: 0 2px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 20%;
+    padding: 0 4px;
+    vertical-align: middle;
+    horiz-align: center;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    horiz-align: center;
+}
