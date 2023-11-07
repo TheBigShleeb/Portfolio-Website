@@ -48,7 +48,7 @@ p {
 
 .header{
     min-height: 10vh;
-    width: 97%;
+    width: 100%;
     background-color: white;
     background-position: center;
     position: relative;
@@ -65,6 +65,7 @@ nav{
     padding: 0%;
     flex: 1;
     text-align: right;
+    margin-right: auto;
 }
 .nav-links ul li{
     list-style: none;
@@ -114,7 +115,7 @@ nav{
 .angles{
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: -10px;
 }
 
 .angles img{
