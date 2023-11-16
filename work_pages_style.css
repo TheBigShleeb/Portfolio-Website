@@ -47,12 +47,19 @@ p {
 }
 
 .header{
-    min-height: 2vh;
+    min-height: 8vh;
     width: 100%;
     background-color: white;
     background-position: center;
     position: relative;
 }
+
+/*.header_fill{
+    height: 50%;
+    width: 100%;
+    opacity: 0%;
+}*/
+
 
 nav{
     display: flex;
@@ -96,60 +103,4 @@ nav{
 
 .nav-links ul li a:hover {
     font-weight: bold;
-}
-
-.nav-links ul li.archive-link{
-    color: #0F75BC;
-}
-
-.container{
-    min-height: 90vh;
-    width: 100%;
-    background-position: center;
-    position: relative;
-    background-color: #343434;
-}
-
-.archive_work{
-    min-height: 115vh;
-    width: 100%;
-    background-color: #343434;
-    background-position: center;
-    position: relative;
-}
-
-.grid-container{
-    max-width: 1224px;
-    width: 90%;
-    margin: auto;
-    padding: 40px 0;
-}
-
-.type2{
-    text-align: center;
-    margin-bottom: 2rem;
-    font-family: "Helvetica-Regular", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    letter-spacing: 0px;
-    line-height: normal;
-    font-style: normal;
-    color: white;
-}
-
-.gallery{
-    display: flex;
-    gap: 20px;
-}
-
-.column{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.picture img{
-    width: 400px;
-    height: 100%;
-    object-fit: cover;
 }

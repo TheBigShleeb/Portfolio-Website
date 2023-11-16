@@ -25,7 +25,7 @@ h1 {
 h2 {
     font-family: "Helvetica-Regular", Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: 0px;
     line-height: normal;
     font-style: normal;
@@ -34,7 +34,7 @@ h2 {
 p {
     font-family: "Helvetica-Regular", Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 23px;
     letter-spacing: 0px;
     line-height: normal;
     font-style: normal;
@@ -103,9 +103,86 @@ nav{
 }
 
 .container{
-    min-height: 90vh;
     width: 100%;
-    background-position: center;
-    position: relative;
+    margin: 0 auto;
+    padding: 10px 20px;
+    height: 85vh;
     background-color: #343434;
+}
+
+.about{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    align-items: center;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.about-image img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-content {
+    flex: 2;
+    padding-right: 100px;
+    color: white;
+}
+
+.main-content .resume{
+    font-family: "Helvetica-Regular", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0F75BC;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+.main-content .resume:hover{
+    background-color: #6ECFF6;
+}
+
+@media screen and (max-width: 768px){
+    .nav-links ul li{
+        padding: 1px 25px;
+    }
+    .container{
+        padding: 0px;
+        height: 100vh;
+    }
+    .about{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .main-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+    .main-content .resume{
+        font-size: 16px;
+    }
 }
