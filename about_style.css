@@ -194,3 +194,16 @@ nav{
         font-size: 16px;
     }
 }
+
+@media(max-width: 410px){
+    .nav-links{
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+    .nav-links ul li{
+        padding: 1px 30px;
+        font-size: 20px;
+    }
+    .nav-links ul li a{
+        font-size: 20px;
+    }
