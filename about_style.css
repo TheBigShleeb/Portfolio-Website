@@ -123,7 +123,7 @@ nav{
     align-items: center;
     margin-right: 30px;
     padding-top: 30px;
-    padding-left: 80px;
+    padding-left: 375px;
 }
 
 .about-image img{
@@ -134,8 +134,9 @@ nav{
 }
 
 .main-content {
+    max-width: 580px;
     flex: 2;
-    padding-right: 100px;
+    padding-right: 370px;
     color: white;
 }
 
@@ -195,15 +196,18 @@ nav{
     }
 }
 
-@media(max-width: 410px){
-    .nav-links{
+@media(max-width: 410px) {
+    .nav-links {
         padding-top: 10px;
         padding-right: 50px;
     }
-    .nav-links ul li{
+
+    .nav-links ul li {
         padding: 1px 30px;
         font-size: 20px;
     }
-    .nav-links ul li a{
+
+    .nav-links ul li a {
         font-size: 20px;
     }
+}

@@ -179,7 +179,22 @@ nav{
     gap: 20px;
 }
 
-.picture img{
+.picture1 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+.picture2 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+.picture3 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+.picture4 img{
     width: 600px;
     height: 100%;
     object-fit: cover;
@@ -237,7 +252,16 @@ nav{
     .gallery{
         flex-direction: column;
     }
-    .picture img{
+    .picture1 img{
+        width: 360px;
+    }
+    .picture2 img{
+        width: 360px;
+    }
+    .picture3 img{
+        width: 360px;
+    }
+    .picture4 img{
         width: 360px;
     }
 }
