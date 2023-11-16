@@ -187,6 +187,12 @@ nav{
         margin-right: 0px;
         margin-bottom: 20px;
     }
+    .about-image img {
+        padding-left: 0px;
+    }
+    .main-content{
+        width: 90vw;
+    }
     .main-content p{
         padding: 0px;
         font-size: 16px;
@@ -204,10 +210,20 @@ nav{
 
     .nav-links ul li {
         padding: 1px 30px;
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .nav-links ul li a {
-        font-size: 20px;
+        font-size: 19px;
+    }
+    .container{
+        height: fit-content;
+    }
+    .main-content {
+        max-width: 580px;
+        padding-right: 10px;
+    }
+    .about-image{
+        padding-left: 0px;
     }
 }
