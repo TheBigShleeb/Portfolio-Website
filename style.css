@@ -54,12 +54,6 @@ p {
     position: relative;
 }
 
-/*.header_fill{
-    height: 50%;
-    width: 100%;
-    opacity: 0%;
-}*/
-
 
 nav{
     display: flex;
@@ -126,8 +120,8 @@ nav{
 
 .label .type{
     position: absolute;
-    top: 270px;
-    left: 400px;
+    padding-left: 18%;
+    padding-top: 16%;
     color: #000000;
     font-family: "Helvetica-Bold", Helvetica, sans-serif;
     font-weight: 700;
@@ -192,6 +186,15 @@ nav{
 }
 
 @media(max-width: 768px){
+    .nav-links ul li{
+        padding: 1px 25px;
+    }
+    .above_fold{
+        background-position: right;
+    }
+    .featured{
+        height: 100%;
+    }
     .gallery{
         flex-direction: column;
     }
