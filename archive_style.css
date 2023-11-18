@@ -1,45 +1,8 @@
-:root {
-    /*-----------Color------------*/
-    --clr-grey-400: #343434;
-    --clr-light_grey-400: #D1D2D4;
-    --clr-blue-400: #0F75BC;
-    --clr-light_blue-400: #6ECFF6;
-}
-
 
 *{
     margin: 0;
     padding: 0;
 }
-
-/*-----------Type------------*/
-h1 {
-    font-family: "Helvetica-Bold", Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    letter-spacing: 0px;
-    line-height: normal;
-    font-style: normal;
-}
-
-h2 {
-    font-family: "Helvetica-Regular", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    letter-spacing: 0px;
-    line-height: normal;
-    font-style: normal;
-}
-
-p {
-    font-family: "Helvetica-Regular", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0px;
-    line-height: normal;
-    font-style: normal;
-}
-
 
 .header img{
     padding: 2% 2%;
