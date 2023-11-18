@@ -116,3 +116,8 @@ nav{
     height: 100%;
     object-fit: cover;
 }
+.picture img:hover{
+    width: 400px;
+    opacity: 0.6;
+    transition: 0.5s ease-in-out;
+}
