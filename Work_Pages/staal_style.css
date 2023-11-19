@@ -107,16 +107,16 @@ nav{
 }
 
 .full-image{
-    height: 60vh;
+    height: 1005px;
     width: 100%;
-    background-image: url("../portfolio_images/specter_studios/stationary-mockup2.jpg");
+    background-image: url("../portfolio_images/staal/IMG_5342.jpg");
     background-size: contain;
 }
 
 .container2{
     width: 100%;
     margin: 0 auto;
-    height: 163vh;
+    height: 2240px;
     background-color: #343434;
 }
 
@@ -129,9 +129,19 @@ nav{
     color: white;
 }
 
+.row1{
+    padding-top: 50px;
+    padding-left: 280px;
+    height: 650px;
+}
+
+.row1 img{
+    max-height: 650px;
+}
+
 .gallery{
-    padding-top: 3%;
-    padding-left: 140px;
+    padding-top: 50px;
+    padding-left: 275px;
     display: flex;
     gap: 50px;
 }
@@ -161,9 +171,9 @@ nav{
 }
 
 .full-image2{
-    height: 1054px;
+    height: 1072px;
     width: 100%;
-    background-image: url("../portfolio_images/specter_studios/Four_posters_mockup.jpg");
+    background-image: url("../portfolio_images/staal/IMG_5327.jpg");
     background-size: contain;
 }
 
