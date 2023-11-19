@@ -18,13 +18,6 @@
     position: relative;
 }
 
-/*.header_fill{
-    height: 50%;
-    width: 100%;
-    opacity: 0%;
-}*/
-
-
 nav{
     display: flex;
     padding: 2% 2%;
@@ -72,7 +65,7 @@ nav{
 .container1{
     width: 100%;
     margin: 0 auto;
-    height: 900px;
+    height: 595px;
     background-color: #343434;
 }
 
@@ -89,11 +82,12 @@ nav{
     align-items: center;
     padding-top: 50px;
     padding-left: 80px;
+    padding-right: 50px;
 }
 
 .vert img{
-    width: 800px;
-    height: 800px;
+    width: 900px;
+    height: auto;
     max-width: 100%;
     display: block;
 }
@@ -107,16 +101,16 @@ nav{
 }
 
 .full-image{
-    height: 60vh;
+    height: 1100px;
     width: 100%;
-    background-image: url("../portfolio_images/specter_studios/stationary-mockup2.jpg");
+    background-image: url("../portfolio_images/maeda_site/web5.jpg");
     background-size: contain;
 }
 
 .container2{
     width: 100%;
     margin: 0 auto;
-    height: 163vh;
+    height: 1290px;
     background-color: #343434;
 }
 
@@ -131,7 +125,7 @@ nav{
 
 .gallery{
     padding-top: 3%;
-    padding-left: 140px;
+    padding-left: 180px;
     display: flex;
     gap: 50px;
 }
@@ -143,8 +137,9 @@ nav{
 }
 
 .picture img{
-    width: 600px;
+    width: 700px;
     height: 100%;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -157,14 +152,8 @@ nav{
 .picture1 img{
     width: 855px;
     height: 100%;
+    border-radius: 10px;
     object-fit: cover;
-}
-
-.full-image2{
-    height: 1054px;
-    width: 100%;
-    background-image: url("../portfolio_images/specter_studios/Four_posters_mockup.jpg");
-    background-size: contain;
 }
 
 .footer{

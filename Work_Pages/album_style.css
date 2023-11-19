@@ -72,7 +72,7 @@ nav{
 .container1{
     width: 100%;
     margin: 0 auto;
-    height: 900px;
+    height: 970px;
     background-color: #343434;
 }
 
@@ -92,8 +92,8 @@ nav{
 }
 
 .vert img{
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: auto;
     max-width: 100%;
     display: block;
 }
@@ -107,16 +107,16 @@ nav{
 }
 
 .full-image{
-    height: 60vh;
+    height: 1117px;
     width: 100%;
-    background-image: url("../portfolio_images/specter_studios/stationary-mockup2.jpg");
+    background-image: url("../portfolio_images/album_cover/album_cov1.jpg");
     background-size: contain;
 }
 
 .container2{
     width: 100%;
     margin: 0 auto;
-    height: 1080px;
+    height: 1360px;
     background-color: #343434;
 }
 
@@ -129,9 +129,20 @@ nav{
     color: white;
 }
 
+.row1{
+    padding-top: 50px;
+    padding-left: 462px;
+    height: 693px;
+}
+
+.row1 img{
+    height: auto;
+    width: 900px;
+}
+
 .gallery{
-    padding-top: 3%;
-    padding-left: 140px;
+    padding-top: 50px;
+    padding-left: 275px;
     display: flex;
     gap: 50px;
 }
@@ -143,7 +154,7 @@ nav{
 }
 
 .picture img{
-    width: 600px;
+    width: 505px;
     height: 100%;
     object-fit: cover;
 }
@@ -155,17 +166,11 @@ nav{
 }
 
 .picture1 img{
-    width: 855px;
+    width: 710px;
     height: 100%;
     object-fit: cover;
 }
 
-.full-image2{
-    height: 1054px;
-    width: 100%;
-    background-image: url("../portfolio_images/specter_studios/Four_posters_mockup.jpg");
-    background-size: contain;
-}
 
 .footer{
     height: 100px;
