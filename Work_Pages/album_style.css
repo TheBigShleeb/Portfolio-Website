@@ -107,10 +107,12 @@ nav{
 }
 
 .full-image{
-    height: 1117px;
-    width: 100%;
-    background-image: url("../portfolio_images/album_cover/album_cov1.jpg");
-    background-size: contain;
+    background-color: #343434;
+    height: auto;
+}
+.full-image img{
+    width: 100vw;
+    height: auto;
 }
 
 .container2{

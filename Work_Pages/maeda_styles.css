@@ -101,10 +101,12 @@ nav{
 }
 
 .full-image{
-    height: 1100px;
-    width: 100%;
-    background-image: url("../portfolio_images/maeda_site/web5.jpg");
-    background-size: contain;
+    background-color: #343434;
+    height: auto;
+}
+.full-image img{
+    width: 100vw;
+    height: auto;
 }
 
 .container2{

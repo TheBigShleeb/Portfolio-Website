@@ -107,10 +107,12 @@ nav{
 }
 
 .full-image{
-    height: 1005px;
-    width: 100%;
-    background-image: url("../portfolio_images/staal/IMG_5342.jpg");
-    background-size: contain;
+    background-color: #343434;
+    height: auto;
+}
+.full-image img{
+    width: 100vw;
+    height: auto;
 }
 
 .container2{
@@ -171,10 +173,12 @@ nav{
 }
 
 .full-image2{
-    height: 1072px;
-    width: 100%;
-    background-image: url("../portfolio_images/staal/IMG_5327.jpg");
-    background-size: contain;
+    background-color: #343434;
+    height: auto;
+}
+.full-image2 img{
+    width: 100vw;
+    height: auto;
 }
 
 .footer{
