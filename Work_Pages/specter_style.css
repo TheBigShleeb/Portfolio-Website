@@ -63,14 +63,13 @@ nav{
 .container1{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     height: 900px;
     background-color: #343434;
 }
 
 .overview{
-    padding-top: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,8 +93,7 @@ nav{
 .content{
     max-width: 650px;
     flex: 2;
-    padding-left: 140px;
-    margin-right: 70px;
+    margin-right: 50px;
     color: white;
 }
 
@@ -128,7 +126,7 @@ nav{
 .container2{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     height: max-content;
     background-color: #343434;
@@ -178,17 +176,17 @@ nav{
 }
 
 .footer{
+    width: 100vw;
     height: 100px;
     background-color: white;
+    justify-content: center;
     align-items: center;
 }
-
 .foot{
     display: flex;
     justify-content: center;
-    padding-top: 38px;
+    padding-top: 40px;
 }
-
 .foot a{
     text-decoration: none;
     font-family: "Helvetica-Regular", Helvetica, sans-serif;
@@ -211,14 +209,14 @@ nav{
         padding-right: 50px;
     }
     .nav-links ul li{
-        padding: 1px 30px;
-        font-size: 25px;
+        padding: 1px 50px;
+        font-size: 21px;
     }
     .nav-links ul li a{
-        font-size: 25px;
+        font-size: 21px;
     }
     .container1{
-        height: 600px;
+        height: 700px;
     }
     .vert{
         padding-left: 40px;
@@ -229,7 +227,7 @@ nav{
     }
     .gallery{
         display: flex;
-        width: 1240px;
+        width: fit-content;
         padding-top: 50px;
         gap: 50px;
     }
@@ -255,18 +253,139 @@ nav{
     }
 }
 
-@media(max-width: 410px) {
+@media(max-width: 1024px) {
     .nav-links{
         padding-top: 10px;
         padding-right: 50px;
     }
-
     .nav-links ul li{
-        padding: 1px 30px;
-        font-size: 19px;
+        padding: 1px 40px;
+        font-size: 20px;
     }
-
     .nav-links ul li a{
-        font-size: 19px;
+        font-size: 20px;
+    }
+    .container1{
+        height: 500px;
+    }
+    .vert{
+        padding-left: 40px;
+    }
+    .vert img{
+        width: 400px;
+        height: auto;
+    }
+    .content{
+        max-width: 400px;
+        flex: 2;
+        color: white;
+    }
+    .gallery{
+        display: flex;
+        width: fit-content;
+        padding-top: 50px;
+        gap: 50px;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .picture img{
+        width: 340px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .column1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .picture1 img{
+        width: 500px;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 425px) {
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .nav-links{
+        padding-top: 20px;
+        padding-right: 40px;
+    }
+    .nav-links ul li{
+        padding: 1px 22px;
+        font-size: 18px;
+    }
+    .nav-links ul li a{
+        font-size: 18px;
+    }
+    .container1{
+        height: fit-content;
+    }
+    .overview{
+        justify-content: center;
+    }
+    .vert{
+        flex: 0;
+        padding: 10px 20px 20px 20px;
+    }
+    .vert img{
+        width: 260px;
+        height: auto;
+    }
+    .content{
+        padding: 20px 20px 10px 20px;
+        margin-right: 0px;
+        max-width: 280px;
+        flex: 2;
+        color: white;
+    }
+    .full-image{
+        padding-bottom: 10px;
+    }
+    .content2{
+        padding: 10px 20px 10px 20px;
+    }
+    .gallery{
+        display: flex;
+        padding-top: 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .picture img{
+        width: 200px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .column1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .picture1 img{
+        width: 200px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .full-image2{
+        padding-top: 20px;
+    }
+    .footer{
+        height: 70px;
+    }
+    .foot{
+        padding-top: 20px;
     }
 }
