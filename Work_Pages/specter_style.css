@@ -63,6 +63,8 @@ nav{
 }
 
 .container1{
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
     height: 900px;
@@ -100,6 +102,8 @@ nav{
 }
 
 .full-image{
+    display: flex;
+    justify-content: center;
     background-color: #343434;
     height: auto;
 }
@@ -108,26 +112,33 @@ nav{
     height: auto;
 }
 
-.container2{
+.type_container{
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
-    height: 163vh;
+    height: fit-content;
     background-color: #343434;
 }
-
 .content2 {
     align-content: center;
     max-width: 700px;
-    flex: 1;
-    padding-top: 3%;
-    padding-left: 32%;
+    padding-top: 50px;
     color: white;
 }
 
+.container2{
+    width: 100%;
+    margin: 0 auto;
+    height: 1385px;
+    background-color: #343434;
+}
+
 .gallery{
-    padding-top: 3%;
-    padding-left: 140px;
     display: flex;
+    justify-content: center;
+    width: auto;
+    padding-top: 50px;
     gap: 50px;
 }
 
@@ -156,6 +167,8 @@ nav{
 }
 
 .full-image2{
+    display: flex;
+    justify-content: center;
     background-color: white;
     height: auto;
 }
