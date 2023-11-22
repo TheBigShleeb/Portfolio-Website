@@ -172,11 +172,6 @@ nav{
     .nav-links ul li a{
         font-size: 18px;
     }
-    .gallery{
-    }
-    .column{
-
-    }
     .picture img{
         width: 600px;
         height: auto;
@@ -251,9 +246,9 @@ nav{
         display: flex;
         justify-content: center;
         background-color: white;
-        background-size: 425px 300px;
+        background-size: 425px 650px;
         width: 100vw;
-        height: 300px;
+        height: 650px;
         padding-top: 0px; /* (img-height / img-width * container-width) */
         /* (853 / 1280 * 100) */
     }
@@ -261,7 +256,7 @@ nav{
         display: flex;
         justify-content: center;
         padding-left: 10px;
-        padding-top: 150px;
+        padding-top: 200px;
         width: 300px;
         height: 150px;
     }
@@ -271,7 +266,7 @@ nav{
         font-size: 25px;
     }
     .type2{
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 10px;
         font-size: 20px;
     }
@@ -284,7 +279,7 @@ nav{
     .column{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
     .picture img{
         width: 100vw;
