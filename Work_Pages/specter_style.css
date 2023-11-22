@@ -341,9 +341,9 @@ nav{
         height: auto;
     }
     .content{
-        padding: 20px 20px 10px 20px;
+        padding: 10px;
         margin-right: 0px;
-        max-width: 280px;
+        max-width: 300px;
         flex: 2;
         color: white;
     }
@@ -365,7 +365,7 @@ nav{
         gap: 20px;
     }
     .picture img{
-        width: 200px;
+        width: 280px;
         height: 100%;
         object-fit: cover;
     }
@@ -375,7 +375,7 @@ nav{
         gap: 20px;
     }
     .picture1 img{
-        width: 200px;
+        width: 280px;
         height: 100%;
         object-fit: cover;
     }
