@@ -334,10 +334,10 @@ nav{
     }
     .vert{
         flex: 0;
-        padding: 10px 20px 20px 20px;
+        padding: 10px 0px 20px 0px;
     }
     .vert img{
-        width: 260px;
+        width: 100vw;
         height: auto;
     }
     .content{
@@ -365,8 +365,8 @@ nav{
         gap: 20px;
     }
     .picture img{
-        width: 280px;
-        height: 100%;
+        width: 100vw;
+        height: auto;
         object-fit: cover;
     }
     .column1{
@@ -375,8 +375,8 @@ nav{
         gap: 20px;
     }
     .picture1 img{
-        width: 280px;
-        height: 100%;
+        width: 100vw;
+        height: auto;
         object-fit: cover;
     }
     .full-image2{

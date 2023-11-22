@@ -17,7 +17,6 @@
     position: relative;
 }
 
-
 nav{
     display: flex;
     padding: 2% 2%;
@@ -66,16 +65,29 @@ nav{
     color: #0F75BC;
 }
 
-.above_fold{
-    min-height: 90vh;
-    width: 100%;
-    background-color: white;
+.above_fold {
     background-image: url("triangles/home bg.jpg");
-    background-position: center;
-    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 0;
+    padding-top: 58.64%; /* (img-height / img-width * container-width) */
+    /* (853 / 1280 * 100) */
+}
+.label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: left;
+    margin-top: 5%;
 }
 
 .label {
+    padding-left: 18%;
+    padding-top: 16%;
     display: flex;
     width: 730px;
     height: 500px;
@@ -83,8 +95,6 @@ nav{
 
 .label .type{
     position: absolute;
-    padding-left: 18%;
-    padding-top: 16%;
     color: #000000;
     font-family: "Helvetica-Bold", Helvetica, sans-serif;
     font-weight: 700;
@@ -94,34 +104,24 @@ nav{
     font-style: normal;
 }
 
-.angles{
-    position: absolute;
-    right: 0px;
-    bottom: -10px;
-}
-
-.angles img{
-    scale: 100%;
-}
 
 .featured{
-    min-height: 115vh;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: auto;
     background-color: #343434;
-    background-position: center;
-    position: relative;
+    padding-bottom: 50px;
 }
 
 .grid-container{
-    max-width: 1224px;
-    width: 90%;
-    margin: auto;
-    padding: 40px 0;
+    width: fit-content;
 }
 
 .type2{
+    padding-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
-    margin-bottom: 2rem;
     font-family: "Helvetica-Regular", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 28px;
@@ -133,90 +133,155 @@ nav{
 
 .gallery{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .column{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
 }
 
 .picture img{
-    width: 600px;
+    width: 800px;
     height: 100%;
     object-fit: cover;
 }
 
 .picture img:hover{
-    width: 600px;
+    width: 800px;
     opacity: 0.6;
     transition: 0.5s ease-in-out;
 }
 
-
-@media(max-width: 768px){
+@media(max-width: 1440px) {
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 21px;
+    }
     .nav-links{
-        padding-top: 10px;
-        padding-right: 75px;
+        padding-top: 20px;
+        padding-right: 40px;
     }
     .nav-links ul li{
-        padding: 1px 35px;
-        font-size: 20px;
+        padding: 1px 22px;
+        font-size: 18px;
     }
     .nav-links ul li a{
-        font-size: 20px;
-    }
-    .above_fold{
-        background-position: right;
-    }
-    .featured{
-        height: 100%;
+        font-size: 18px;
     }
     .gallery{
-        flex-direction: column;
+    }
+    .column{
+
     }
     .picture img{
-        width: 450px;
+        width: 600px;
+        height: auto;
     }
 }
 
-@media(max-width: 410px){
+@media(max-width: 1024px) {
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 21px;
+    }
     .nav-links{
-        padding-top: 10px;
-        padding-right: 50px;
+        padding-top: 20px;
+        padding-right: 40px;
     }
     .nav-links ul li{
-        padding: 1px 30px;
-        font-size: 19px;
+        padding: 1px 22px;
+        font-size: 18px;
     }
     .nav-links ul li a{
-        font-size: 19px;
+        font-size: 18px;
     }
-    .above_fold{
-        background-position: right;
-    }
-    .label .type{
-        padding-left: 10%;
-        padding-top: 45%;
-        font-size: 28px;
-    }
-    .featured{
-        height: 100%;
+    .type2{
+        padding: 30px 0px 30px 0px;
     }
     .gallery{
+        gap: 30px;
+    }
+    .column{
+        gap: 30px;
+    }
+    .picture img{
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media(max-width: 425px) {
+    h1{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .nav-links{
+        padding-top: 20px;
+        padding-right: 40px;
+    }
+    .nav-links ul li{
+        padding: 1px 22px;
+        font-size: 18px;
+    }
+    .nav-links ul li a{
+        font-size: 18px;
+    }
+    .above_fold {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        background-size: 425px 300px;
+        width: 100vw;
+        height: 300px;
+        padding-top: 0px; /* (img-height / img-width * container-width) */
+        /* (853 / 1280 * 100) */
+    }
+    .label {
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        padding-top: 150px;
+        width: 300px;
+        height: 150px;
+    }
+    .label .type{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .type2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .gallery{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        gap: 10px;
         flex-direction: column;
     }
-    .picture1 img{
-        width: 360px;
+    .column{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
-    .picture2 img{
-        width: 360px;
+    .picture img{
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
     }
-    .picture3 img{
-        width: 360px;
-    }
-    .picture4 img{
-        width: 360px;
+    .featured{
+        padding-bottom: 20px;
     }
 }
