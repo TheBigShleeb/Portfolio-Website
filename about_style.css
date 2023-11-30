@@ -66,127 +66,124 @@ nav{
 }
 
 .container{
+    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     padding: 10px 20px;
-    height: 85vh;
+    height: fit-content;
     background-color: #343434;
 }
 
 .about{
     padding-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 150px;
 }
 
-.about-image{
+.column{
+    display: flex;
+    justify-content: center;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+.picture{
     flex: 1;
     align-items: center;
-    margin-right: 30px;
-    padding-top: 30px;
-    padding-left: 375px;
+    padding: 50px;
 }
 
-.about-image img{
+.picture img{
     width: 400px;
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-.main-content {
+.content {
     max-width: 580px;
-    flex: 2;
-    padding-right: 370px;
     color: white;
+    padding-bottom: 110px;
 }
 
-.main-content .resume{
-    font-family: "Helvetica-Regular", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 23px;
-    letter-spacing: 0px;
-    line-height: normal;
-    font-style: normal;
-
+.content2{
+    direction:rtl;
+    text-align:justify;
+    color: white;
+}
+.content2 .resume{
     display: inline-block;
     padding: 10px 20px;
     background-color: #0F75BC;
     color: white;
     text-decoration: none;
-    border-radius: 25px;
     margin-top: 15px;
     transition: 0.3s ease;
 }
 
-.main-content .resume:hover{
+.content2 .resume:hover{
     background-color: #6ECFF6;
 }
 
-@media screen and (max-width: 768px){
-    .nav-links{
-        padding-top: 10px;
-        padding-right: 75px;
-    }
-    .nav-links ul li{
-        padding: 1px 35px;
-        font-size: 20px;
-    }
-    .nav-links ul li a{
-        font-size: 20px;
-    }
-    .container{
-        padding: 0px;
-        height: 100vh;
-    }
-    .about{
-        padding: 20px;
-        flex-direction: column;
-    }
-    .about-image{
-        padding-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .about-image img {
-        padding-left: 0px;
-    }
-    .main-content{
-        width: 90vw;
-    }
-    .main-content p{
-        padding: 0px;
-        font-size: 16px;
-    }
-    .main-content .resume{
-        font-size: 16px;
-    }
+@media(max-width: 1440px) {
+
 }
 
-@media(max-width: 410px) {
-    .nav-links {
-        padding-top: 10px;
-        padding-right: 50px;
+@media(max-width: 1024px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .nav-links{
+        padding-top: 20px;
+        padding-right: 40px;
+    }
+    .nav-links ul li{
+        padding: 1px 22px;
+        font-size: 18px;
+    }
+    .nav-links ul li a{
+        font-size: 18px;
+    }
+    .column2 {
+        max-width: 400px;
+    }
+    .picture img{
+        width: 400px;
+    }
+    .content {
+        padding-bottom: 50px;
     }
 
-    .nav-links ul li {
-        padding: 1px 30px;
-        font-size: 19px;
+@media(max-width: 425px) {
+    h1{
+        font-size: 21px;
     }
-
-    .nav-links ul li a {
-        font-size: 19px;
+    h2{
+        font-size: 25px;
     }
-    .container{
-        height: fit-content;
+    p{
+        font-size: 18px;
     }
-    .main-content {
-        max-width: 580px;
-        padding-right: 10px;
+    .nav-links{
+        padding-top: 20px;
+        padding-right: 40px;
     }
-    .about-image{
-        padding-left: 0px;
+    .nav-links ul li{
+        padding: 1px 22px;
+        font-size: 18px;
     }
+    .nav-links ul li a{
+        font-size: 18px;
+    }
+    .picture{
+        padding-top: 25px;
+    }
+}
 }

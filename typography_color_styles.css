@@ -46,3 +46,15 @@ a {
     font-style: normal;
     color: #6ECFF6;
 }
+
+@media(max-width: 425px) {
+    h1 {
+        font-size: 21px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
