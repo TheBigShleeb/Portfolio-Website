@@ -4,12 +4,11 @@
 }
 
 .header img{
-    padding: 2% 2%;
-    width: 100px;
+    width: 90px;
 }
 
 .header{
-    min-height: 8vh;
+    min-height: 10vh;
     width: 100%;
     background-color: white;
     background-position: center;
